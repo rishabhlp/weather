@@ -1,0 +1,58 @@
+    <html lang="en" xmlns:th="http://www.thymeleaf.org">  
+    <h1 style="color:blue;"> Weather Forecast </h1> 
+    <table>    
+    <tr>    
+    <td><h4 style="color:green;">City Name: </h4></td>    
+    <td><h4 th:text="${parsedWeather.cityName}"></h4></td>    
+    </tr>  
+    <tr>    
+    <td><h4 style="color:green;">Date and Time:</h4></td>    
+    <td><h4 th:text="${parsedWeather.dateTime}"></h4></td>    
+    </tr> 
+    <tr>    
+    <td><h4 style="color:green;">Weather Condition:</h4></td>    
+    <td><h4 th:text="${parsedWeather.weatherCondition}"></h4></td>    
+    </tr>  
+    <tr>    
+    <td><h4 style="color:green;">Current Temperature: </h4></td>    
+    <td><h4 th:text="${parsedWeather.currentTemeprature}"></h4></td>    
+    </tr>  
+    <tr>    
+    <td><h4 style="color:green;">Feels Like: </h4></td>    
+    <td><h4 th:text="${parsedWeather.feelsLikeTemperature}"></h4></td>    
+    </tr>  
+    <tr>    
+    <td><h4 style="color:green;">Maximum Temperature in an hour: </h4></td>    
+    <td><h4 th:text="${parsedWeather.maxTemp}"></h4></td>    
+    </tr>  
+    <tr>    
+    <td><h4 style="color:green;">Minimum Temperature in an hour: </h4></td>    
+    <td><h4 th:text="${parsedWeather.minTemp}"></h4></td>    
+    </tr>  
+    <tr>    
+    <td><h4 style="color:green;">Humidity: </h4></td>    
+    <td><h4 th:text="${parsedWeather.humidity}"></h4></td>    
+    </tr>  
+    <tr>    
+    <td><h4 style="color:green;">Pressure:</h4></td>    
+    <td><h4 th:text="${parsedWeather.pressure}"></h4></td>    
+    </tr>  
+    <tr>    
+    <td><h4 style="color:green;">Wind Speed:</h4></td>    
+    <td><h4 th:text="${parsedWeather.windSpeed}"></h4></td>    
+    </tr>  
+    <tr></tr>   
+    </table>  
+    <form action="/" method="get">
+    <table>
+    <tr>    
+    <td></td>    
+    <td><input type="submit" value="Return to the main page"></input></td>    
+    <td></td>
+    </tr>    
+    </table>     
+    </form>
+    <footer>
+  	<p>Created by Rishabh <a href="mailto:rishabh.kumar585@gmail.com"> Contact</a></p>
+	</footer>   
+    </html>  
