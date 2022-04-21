@@ -4,7 +4,9 @@ A weather tracker project
 This project gives realtime information about the weather conditions in your city. Built using Spring boot, Java and Thymeleaf.
 
 Operation:
-Just run this application in your local IDE or as an jar. And head to localhost:9000
+Just run this application in your local IDE or as an jar. And head to 
+http://localhost:9000/
+
 ![image](https://user-images.githubusercontent.com/11883115/164391416-96402921-2e68-4b2b-8b61-ea1c777a69b4.png)
 
 Enter your city Name and hit Submit
